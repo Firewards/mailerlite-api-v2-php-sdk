@@ -1,8 +1,10 @@
-# MailerLite API v2 PHP SDK
+# MailerLite Classic API v2 PHP SDK
 
-It is an official PHP SDK for MailerLite API v2.
+**This library is for MailerLite Classic. If you want to integrate with MailerLite please use https://github.com/mailerlite/mailerlite-php instead.**
 
-You can find more examples and information about MailerLite API v2 here: [https://developers.mailerlite.com](https://developers.mailerlite.com)
+It is an official PHP SDK for the MailerLite Classic API.
+
+You can find more examples and information about the MailerLite Classic API here: [https://developers-classic.mailerlite.com/docs](https://developers-classic.mailerlite.com/docs)
 
 ## Getting started
 
@@ -81,7 +83,7 @@ Here is an example how to use [Guzzle](https://docs.guzzlephp.org/) instead of c
 $guzzle = new \GuzzleHttp\Client();
 $guzzleClient = new \Http\Adapter\Guzzle6\Client($guzzle);
 
-$mailerliteClient = new \MailerLiteApi\Mailerlite('your-api-key', $guzzleClient);
+$mailerliteClient = new \MailerLiteApi\MailerLite('your-api-key', $guzzleClient);
 ```
 
 ## Support and Feedback
@@ -92,4 +94,4 @@ You are welcome to create SDK for any other programming language.
 
 If you have any troubles using our API or SDK free to contact our support by email [info@mailerlite.com](mailto:info@mailerlite)
 
-Official documentation is at [https://developers.mailerlite.com](https://developers.mailerlite.com)
+Official documentation is at [https://developers-classic.mailerlite.com/docs](https://developers-classic.mailerlite.com/docs)
